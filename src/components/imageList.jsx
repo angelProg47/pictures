@@ -3,7 +3,7 @@ import './ImageList.css'
 
 function ImagesList({images}){
 
-    const renderImage = images.map((image) =>{
+    const renderImage=images.map((image)=>{
         return <ImageShow key={image.id} image={image}/>
     })
 
@@ -13,4 +13,4 @@ function ImagesList({images}){
         </div>
     )
 }
-export default ImageList
+export default ImagesList
